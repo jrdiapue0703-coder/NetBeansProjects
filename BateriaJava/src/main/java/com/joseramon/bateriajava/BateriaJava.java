@@ -64,5 +64,111 @@ public class BateriaJava {
         System.out.println("edad: " +edadEJ5);
         System.out.println("ciudad: " +ciudadEJ5);
         System.out.println("curso: " +cursoEJ5);
+        //EJERCICIO6
+        //Aqui muestro mi nombre
+        String nombreEJ6 = "Jose Ramon";
+        //Aqui muestro mi edad
+        int edadEJ6 = 19;
+        //Aqui muestro mi altura
+        int alturaEJ6 = 179;
+        //Aqui muestro el curso que estoy cursando
+        String cursoEJ6 = "1ºDAW";
+        
+        System.out.println("nombre: " +nombreEJ6);
+        System.out.println("edad: " +edadEJ6);
+        System.out.println("altura: " +alturaEJ6);
+        System.out.println("curso: " +cursoEJ6);
+       
+        //EJERCICIO7
+        String apellidosEJ7 = "Diaz Puerto";
+        int edadEJ7 = 19;
+        double temperaturaEJ7 = 22.5;
+        char caracterEJ7 = '#';
+        boolean alumnosEJ7 = true;
+        
+        System.out.println("apellidos " +apellidosEJ7);
+        System.out.println("edad " +edadEJ7);
+        System.out.println("temperatura " +temperaturaEJ7);
+        System.out.println("carcter " +caracterEJ7);
+        System.out.println("alumnos " +alumnosEJ7);
+        
+        //EJERCICIO8
+        String nombreEJ8 = "Jose Ramon";
+        String apellidosEJ8 = "Diaz Puerto";
+        int edadEJ8 = 19;
+        int alturaEJ8 = 179;
+        char caracterEJ8 = 'J';
+        String cursoEJ8 = "1º DAW";
+        boolean repetidorEJ8 = false;
+        
+        System.out.println("nombre " +nombreEJ8);
+        System.out.println("apellidos " +apellidosEJ8);
+        System.out.println("edad " +edadEJ8);
+        System.out.println("altura " +alturaEJ8);
+        System.out.println("carcter " +caracterEJ8);
+        System.out.println("curso " +cursoEJ8);
+        System.out.println("repetidor " +repetidorEJ8);
+        
+        //EJERCICIO9
+        
+       String marcaEJ9 = "Intel";
+       String modeloEJ9 = "i7";
+       int precioEJ9 = 147;
+       String memoriaramEJ9 = "16 GB";
+       String almacenamientoEJ9 = "1 TB";
+       boolean portatilEJ9 = false;
+       
+        System.out.println("marca " +marcaEJ9);
+        System.out.println("modelo " +modeloEJ9);
+        System.out.println("precio " +precioEJ9);
+        System.out.println("memoriaram " +memoriaramEJ9);
+        System.out.println("almacenamiento " +almacenamientoEJ9);
+        System.out.println("portatil " +portatilEJ9);
+        
+        //EJERCICIO10
+       String marcaEJ10 = "Intel";
+       String modeloEJ10 = "i7";
+       int precioEJ10 = 147;
+       String memoriaramEJ10 = "16 GB";
+       String almacenamientoEJ10 = "1 TB";
+       String tamanopantallaEJ10 = "24 pulgadas";
+       boolean tiene5gEJ10 = true;
+        
+       System.out.println("================================");
+       System.out.println("          MIS DATOS             ");
+       System.out.println("================================");
+       System.out.println("marca " +marcaEJ10);
+       System.out.println("modelo " +modeloEJ10);
+       System.out.println("precio " +precioEJ10);
+       System.out.println("memoriaram " +memoriaramEJ10);
+       System.out.println("almacenamiento " +almacenamientoEJ10);
+       System.out.println("tamanopantalla " +tamanopantallaEJ10);
+       
+       //EJERCICIO11
+       String nombreEJ11 = "Jose Ramon";
+       int edadEJ11 = 19;
+       
+       System.out.println(" me llamo " +nombreEJ11 + " y tengo " +edadEJ11 );
+       
+       //EJERCICIO12
+       String productoEJ12 = "Mando";
+       int precioEJ12 = 59;
+       int stockEJ12 = 4;
+       
+        System.out.println(" El producto " +productoEJ12 + " cuesta " +precioEJ12 + " euros y tenemos " +stockEJ12 +" unidades disponible" );
+       
+       //EJERCICIO13
+       String marcaEJ11 = "Mercedes";
+       String modeloEJ11 = "Clase A";
+       char anoEJ11 = 1;
+       int precioEJ11 = 27000;
+       int kilometrosEJ11 = 14000;
+     
+       System.out.println("marca " +marcaEJ11);
+       System.out.println("modelo " +modeloEJ11);
+       System.out.println("ano " +anoEJ11);
+       System.out.println("precio " +precioEJ11);
+        System.out.println("kilometros " +kilometrosEJ11);
+        
     }
 }
