@@ -315,9 +315,20 @@ public class BateriaJava {
         System.out.println("Importe de descuento " +(productoEJ21*ivaEJ21));
         System.out.println("Precio final " +(productoEJ21+(productoEJ21*ivaEJ21)));
        
-        
-        
+        //EJERCICIO22
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
        
+       int productoEJ22 =500;
+       double ivaEJ22 =0.21;
+       double descuentoEJ22 = 0.10;
+       
+        System.out.println("Precio original " +productoEJ22);
+        System.out.println("Descuento " +(productoEJ22*descuentoEJ22));
+        System.out.println("Precio despues del descuento " +(productoEJ22-(productoEJ22*descuentoEJ22)));
+        System.out.println("IVA " +(productoEJ22*descuentoEJ22)+ivaEJ22);
+      
        
         
        
