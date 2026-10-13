@@ -16,6 +16,10 @@ public class BateriaJava {
     public static void main(String[] args) {
         //EJERCICIO 2
         System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
+        
+        System.out.println("================================");
         System.out.println("           HOLA JAVA            ");
         System.out.println("================================");
         System.out.println("nombre: Jose Ramon");
@@ -26,6 +30,9 @@ public class BateriaJava {
         System.out.println("================================");
         
         //EJERCICIO 3
+        System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
         String nombreEJ3 = "Jose Ramon";
         String apellidosEJ3 = "Diaz Puerto";
         int edadEJ3 = 19;
@@ -42,6 +49,9 @@ public class BateriaJava {
         System.out.println("================================");
         
         //EJERCICIO 4
+        System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
         //Aqui muestra el lenguaje 
         System.out.println("Java");
         //Aqui muestra la aplicacion
@@ -54,6 +64,9 @@ public class BateriaJava {
         System.out.println("Desarrollo de Aplicaciones Web");
         
         //EJERCICIO 5
+        System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
         String nombreEJ5 = "JOSE RAMON";
         String apellidosEJ5 = "DIAZ PUERTO";
         int edadEJ5 = 19;
@@ -65,6 +78,9 @@ public class BateriaJava {
         System.out.println("ciudad: " +ciudadEJ5);
         System.out.println("curso: " +cursoEJ5);
         //EJERCICIO6
+        System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
         //Aqui muestro mi nombre
         String nombreEJ6 = "Jose Ramon";
         //Aqui muestro mi edad
@@ -80,6 +96,9 @@ public class BateriaJava {
         System.out.println("curso: " +cursoEJ6);
        
         //EJERCICIO7
+        System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
         String apellidosEJ7 = "Diaz Puerto";
         int edadEJ7 = 19;
         double temperaturaEJ7 = 22.5;
@@ -93,6 +112,9 @@ public class BateriaJava {
         System.out.println("alumnos " +alumnosEJ7);
         
         //EJERCICIO8
+        System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
         String nombreEJ8 = "Jose Ramon";
         String apellidosEJ8 = "Diaz Puerto";
         int edadEJ8 = 19;
@@ -110,7 +132,9 @@ public class BateriaJava {
         System.out.println("repetidor " +repetidorEJ8);
         
         //EJERCICIO9
-        
+        System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
        String marcaEJ9 = "Intel";
        String modeloEJ9 = "i7";
        int precioEJ9 = 147;
@@ -126,6 +150,9 @@ public class BateriaJava {
         System.out.println("portatil " +portatilEJ9);
         
         //EJERCICIO10
+        System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
        String marcaEJ10 = "Intel";
        String modeloEJ10 = "i7";
        int precioEJ10 = 147;
@@ -145,12 +172,18 @@ public class BateriaJava {
        System.out.println("tamanopantalla " +tamanopantallaEJ10);
        
        //EJERCICIO11
+       System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
        String nombreEJ11 = "Jose Ramon";
        int edadEJ11 = 19;
        
        System.out.println(" me llamo " +nombreEJ11 + " y tengo " +edadEJ11 );
        
        //EJERCICIO12
+       System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
        String productoEJ12 = "Mando";
        int precioEJ12 = 59;
        int stockEJ12 = 4;
@@ -158,6 +191,9 @@ public class BateriaJava {
         System.out.println(" El producto " +productoEJ12 + " cuesta " +precioEJ12 + " euros y tenemos " +stockEJ12 +" unidades disponible" );
        
        //EJERCICIO13
+       System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
        String marcaEJ11 = "Mercedes";
        String modeloEJ11 = "Clase A";
        char anoEJ11 = 1;
@@ -168,7 +204,124 @@ public class BateriaJava {
        System.out.println("modelo " +modeloEJ11);
        System.out.println("ano " +anoEJ11);
        System.out.println("precio " +precioEJ11);
-        System.out.println("kilometros " +kilometrosEJ11);
+       System.out.println("kilometros " +kilometrosEJ11);
+        
+       //EJERCICIO14
+       System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
+       int numero1EJ14 = 20;
+       int numero2EJ14 = 6;
+       
+       //Aqui muestro la suma 
+        System.out.println(numero1EJ14+numero2EJ14);
+        //Aqui muestro la resta
+        System.out.println(numero1EJ14-numero2EJ14);
+        //Aqui muestro la multiplicacion 
+        System.out.println(numero1EJ14*numero2EJ14);
+        //Aqui muestro la division 
+        System.out.println(numero1EJ14/numero2EJ14);
+        //Aqui muestro la resto
+        System.out.println(numero1EJ14%numero2EJ14);
+        
+       //EJERCICIO15
+       System.out.println("================================");
+        System.out.println("          ejercicio             ");
+        System.out.println("================================");
+       int numero1EJ15 = 20;
+       int numero2EJ15 = 6;
+
+        
+       System.out.println("================================");
+       System.out.println("          CALCULADORA             ");
+       System.out.println("================================");
+       System.out.println("Numero1: " +numero1EJ15);
+       System.out.println("Numero2: " +numero2EJ15);
+       System.out.println("Suma: " +numero1EJ15+numero2EJ15);
+       //Aqui muestro la resta
+       System.out.println("Resta: " + (numero1EJ15-numero2EJ15));
+        //Aqui muestro la multiplicacion 
+        System.out.println("Multiplicacion: "+numero1EJ15*numero2EJ15);
+        //Aqui muestro la division 
+        System.out.println("Division: "+numero1EJ15/numero2EJ15);
+        //Aqui muestro la resto
+        System.out.println("Resto: "+numero1EJ15%numero2EJ15);
+        
+       //EJERCICIO16
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int numero1EJ16 = 10;
+       int numero2EJ16 = 5;
+       int numero3EJ16 = 2;
+       
+        System.out.println(numero1EJ16+numero2EJ16+numero3EJ16);
+       System.out.println(numero1EJ16*numero2EJ16*numero3EJ16);
+       System.out.println(numero1EJ16+numero2EJ16*numero3EJ16);
+       System.out.println((numero1EJ16+numero2EJ16)*numero3EJ16);
+       
+       //EJERCICIO17
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int baseEJ17 = 10;
+       int alturaEJ17 = 5;
+       
+       System.out.println("Area= " +baseEJ17*alturaEJ17);
+        
+       //EJERCICIO18
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int baseEJ18 = 15;
+       int alturaEJ18 = 8;
+       
+       System.out.println("Perimetro= " + 2*(baseEJ18+alturaEJ18));
+       
+      //EJERCICIO19
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int radioEJ19 = 5;
+       double πEJ19 = 3.14;
+       
+        System.out.println("Area=" +πEJ19*(radioEJ19*2));
+        
+        //EJERCICIO20
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int productoEJ20 =100;
+       double ivaEJ20 =0.21;
+       
+        System.out.println("Precio" +productoEJ20);
+        System.out.println("IVA del 21% " + (productoEJ20*ivaEJ20));
+        System.out.println("Precio final " +(productoEJ20+(productoEJ20*ivaEJ20)));
+        
+         //EJERCICIO21
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int productoEJ21 =200;
+       double ivaEJ21 =0.15;
+       
+        System.out.println("Precio original " +productoEJ21);
+        System.out.println("Importe de descuento " +(productoEJ21*ivaEJ21));
+        System.out.println("Precio final " +(productoEJ21+(productoEJ21*ivaEJ21)));
+       
+        
+        
+       
+       
+        
+       
+        
         
     }
 }
