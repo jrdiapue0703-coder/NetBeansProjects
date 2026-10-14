@@ -329,9 +329,107 @@ public class BateriaJava {
         System.out.println("Precio despues del descuento " +(productoEJ22-(productoEJ22*descuentoEJ22)));
         System.out.println("IVA " +(productoEJ22*descuentoEJ22)+ivaEJ22);
       
+        //EJERCICIO23
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
        
+       int aEJ23 = 10;
+       int bEJ23 = 20;
+       
+        System.out.println("a > b= " +aEJ23 +">"+ bEJ23 );
+       System.out.println("a > b= " +aEJ23 +"<"+ bEJ23 );
+       System.out.println("a > b= " +aEJ23 +">="+ bEJ23 );
+       System.out.println("a > b= " +aEJ23 +"<="+ bEJ23 );
+       System.out.println("a > b= " +aEJ23 +"=="+ bEJ23 );
+       System.out.println("a > b= " +aEJ23 +"!"+ bEJ23 );
+      
+       //EJERCICIO24
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int edadEJ24 = 20; 
+       boolean mayordeedadEJ24 = true;
+       
+        System.out.println("edad= " +edadEJ24);
+        System.out.println("¿Es mayor de edad?: " +mayordeedadEJ24);
         
+       //EJERCICIO25
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+        
+       int precioEJ25 = 75;
+       boolean precio50EJ25 = false;
+       boolean precio100EJ25 =true;
+       boolean precio75EJ25 = true;
+       boolean precio20EJ25 = false;
        
+        System.out.println("Precio " +precioEJ25);
+       System.out.println("¿El precio es mayor que 50? " +precio50EJ25);
+       System.out.println("¿El precio es menor que 100? " +precio100EJ25);
+       System.out.println("¿El precio es igual a 75? " +precio75EJ25);
+       System.out.println("¿El precio es diferente de 20? " +precio20EJ25);
+       
+       
+       //EJERCICIO26
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       double notaEJ26 = 7.5;
+       boolean nota5EJ26 = true;
+       boolean nota5_EJ26 =false;
+       boolean nota10EJ26 =false;
+       boolean nota0EJ26 = true;
+       
+        System.out.println("Nota " +notaEJ26);
+        System.out.println("¿La nota es mayot que 5?" +nota5EJ26);
+        System.out.println("¿La nota es menor que 5?" +nota5_EJ26);
+        System.out.println("¿La nota es igual a 10?" +nota10EJ26);
+        System.out.println("¿La nota es diferente de 0?" +nota0EJ26);
+        
+       //EJERCICIO27
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+
+       
+        System.out.println(true && true);
+        System.out.println(true && false);
+        System.out.println(false && true);
+        System.out.println(false && false);
+        
+        //EJERCICIO28
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       
+        System.out.println(true || true);
+        System.out.println(true || false);
+        System.out.println(false || true);
+        System.out.println(false || false);
+        
+       //EJERCICIO29
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+        System.out.println(!true);
+        System.out.println(!false);
+        
+        //EJERCICIO30
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int edadEJ30 = 25;
+       
+        System.out.println("La edad es mayor o igual que 18 Y menor o igual que 65 " +true);
+        
         
         
     }
