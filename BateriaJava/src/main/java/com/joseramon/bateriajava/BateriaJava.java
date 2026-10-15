@@ -422,14 +422,143 @@ public class BateriaJava {
         System.out.println(!false);
         
         //EJERCICIO30
+        //Lo ha hecho Salvador los mismos comandos en este ejercicio 
        System.out.println("================================");
        System.out.println("          ejercicio             ");
        System.out.println("================================");
        
        int edadEJ30 = 25;
+
+    
+       System.out.println("La edad es mayor o igual que 18 Y menor o igual que 65 " + (edadEJ30>=18 && edadEJ30<=65));
        
-        System.out.println("La edad es mayor o igual que 18 Y menor o igual que 65 " +true);
+       //EJERCICIO31
+       //Lo ha hecho Salvador los mismos comandos en este ejercicio 
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int precioEJ31 = 500;
+        System.out.println("El precio es mayor que 0 Y menor que 1000." +(precioEJ31>0 && precioEJ31<1000));
+     
+       //EJERCICIO32
+       //Lo ha hecho Salvador los mismos comandos en este ejercicio 
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+      int edadEJ32 = 20;
+      int salarioEJ32 = 1500;
+              
+       System.out.println("La edad es mayor o igual que 18 " +(edadEJ32>=18) + "Y el salario es mayor que 1000 " +(salarioEJ32 >1000));
+            
+        //EJERCICIO33
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int [] numeroEJ33 = {1,2,3,4,5};
+       
+       System.out.println("si array tienen " +numeroEJ33.length +"posiciones");
+       
+       //EJERCICIO34
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       int  [] numeroEJ34 = {10,20,30,40,50};
+               
+       System.out.println("si array tienen " +numeroEJ34.length +"posiciones");
+               
+       //EJERCICIO35
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int[] numerosEJ35 = {10, 20, 30, 40, 50};
+       
+        System.out.println("Primer numero: " +numerosEJ35[0]);
+        System.out.println("Segundo numero: " +numerosEJ35[1]);
+        System.out.println("Tercer numero: " +numerosEJ35[2]);
+        System.out.println("Cuarto numero: " +numerosEJ35[3]);
+        System.out.println("Quinto numero: " +numerosEJ35[4]);
+       
+        //EJERCICIO36
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+        int[] numerosEJ36 = {10, 20, 30, 40, 50};
         
+        System.out.println("Primer numero: " +numerosEJ36[0]*10);
+        System.out.println("Segundo numero: " +numerosEJ36[1]*10);
+        System.out.println("Tercer numero: " +numerosEJ36[2]*10);
+        System.out.println("Cuarto numero: " +numerosEJ36[3]*10);
+        System.out.println("Quinto numero: " +numerosEJ36[4]*10);
+        
+         //EJERCICIO37
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       String[] alumnosEJ37 = {"Ana", "Juan", "Pedro", "Laura", "Carlos"};
+       
+       System.out.println("Primer numero: " +alumnosEJ37[0]);
+       System.out.println("Tercer numero: " +alumnosEJ37[2]);
+       System.out.println("Quinto numero: " +alumnosEJ37[4]);
+       
+       //EJERCICIO38
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+        double[] notaEJ38 = {5.5,7.0,8.5,4.5,9.0};
+        
+        System.out.println("Nota1: " +notaEJ38[0]);
+        System.out.println("Nota2:  " +notaEJ38[1]);
+        System.out.println("Nota3: " +notaEJ38[2]);
+        System.out.println("Nota4: " +notaEJ38[3]);
+        System.out.println("Nota5: " +notaEJ38[4]);
+        
+         //EJERCICIO39
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+        double[] notaEJ39 = {5.5,7.0,8.5,4.5,9.0};
+        
+        System.out.println("Nota1: " +notaEJ39[0]);
+        System.out.println("Nota2:  " +notaEJ39[1]);
+        System.out.println("Nota3: " +notaEJ39[2]);
+        System.out.println("Nota4: " +notaEJ39[3]);
+        System.out.println("Nota5: " +notaEJ39[4]);
+        System.out.println("Media: " +(notaEJ39[0]+notaEJ39[1]+notaEJ39[2]+notaEJ39[3]+notaEJ39[4])/5);
+        
+         //EJERCICIO40
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       int[] numerosEJ40 = {10, 20, 30, 40, 50, 60};
+       
+       System.out.println("Array tienen " +numerosEJ40.length +" posiciones");
+       
+        //EJERCICIO41
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+
+       int[] numerosEJ41 = {10, 20, 30, 40, 50};
+        System.out.println("Array " + numerosEJ41[numerosEJ41.length - 1] +" posiciones");
+       
+       
+       
+       
+       
+        
+        
+        
+
+       
         
         
     }
