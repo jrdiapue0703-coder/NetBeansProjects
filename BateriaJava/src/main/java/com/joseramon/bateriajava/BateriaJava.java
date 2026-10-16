@@ -550,11 +550,102 @@ public class BateriaJava {
        int[] numerosEJ41 = {10, 20, 30, 40, 50};
         System.out.println("Array " + numerosEJ41[numerosEJ41.length - 1] +" posiciones");
        
+         //EJERCICIO42
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       String nombreEJ42 = "Jose Ramon";
+       String apellidosEJ42 = "Diaz Puerto";
+       int edadEJ42 = 19;
+       String cursoEJ42 = "1 Daw";
+       int notaEJ42 = 7;
+       boolean repetidor42 = false;
+       int [] notasEJ42 = {10,7,8,9,6};
+       boolean mediaEJ42 = true;
+        System.out.println("Nombre " +nombreEJ42);
+        System.out.println("Apellidos " +apellidosEJ42);
+        System.out.println("Edad " +edadEJ42);
+        System.out.println("Curso " +cursoEJ42);
+        System.out.println("Nota " +notaEJ42 );
+        System.out.println("Repetidor " +repetidor42);
+        System.out.println("Media: " +(notasEJ42[0]+notasEJ42[1]+notasEJ42[2]+notasEJ42[3]+notasEJ42[4])/5);
+        System.out.println("Media igual o superior a 5" +mediaEJ42);
+          
+        //EJERCICIO43
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       String marcaEJ43 ="Mercedes";
+       String modeloEJ43 = "Clase C";
+       int anoEJ43 = 2023;
+       int precioEJ43 = 40000;
+       int kilometros43 = 12000;
        
        
-       
-       
+        System.out.println("Marca " +marcaEJ43);
+        System.out.println("Modelo " +modeloEJ43);
+        System.out.println("Ano " +anoEJ43);
+        System.out.println("Precio " +precioEJ43);
+        System.out.println("Kilometro " +kilometros43);
+    
         
+       double ivaEJ43 = precioEJ43*0.21;
+       double descuentoEJ43 = (precioEJ43*10)/100;
+       
+        System.out.println("Precio con iva" +ivaEJ43);
+        System.out.println("Precio con descuento" +descuentoEJ43);
+       
+       boolean dineroEJ43 = false;
+       boolean menoskmEJ43 = true;
+       boolean electricoEJ43 = false;
+       
+        System.out.println("Es electrico? " +electricoEJ43);
+        System.out.println("Cuesta mas de 20mil €? € " +dineroEJ43);
+        System.out.println("Tiene menos de 100mil km" +menoskmEJ43);
+        
+        
+         //EJERCICIO44
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       String marcaEJ44 ="Asus";
+       String modeloEJ44 = "Pro";
+       String ramEJ44 = "64GB";
+       String almacenamiento44 = "2TB";
+       int precioEJ44 = 1200;
+       boolean portatilEJ44 = true;
+       
+       int [] portatilesEJ44 = {1200,3000,1000,800,900};
+       
+        System.out.println("Precios: " +portatilesEJ44.length +" posiciones");
+        System.out.println("Primer precio " +portatilesEJ44[0]);
+        System.out.println("Ultimo precio " +portatilesEJ44[4]);
+        System.out.println("Media: " +(portatilesEJ44[0]+portatilesEJ44[1]+portatilesEJ44[2]+portatilesEJ44[3]+portatilesEJ44[4])/5);
+        
+        //EJERCICIO45
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+       String nombreEJ45 = "JD";
+       String ciudadEJ45 = "Jerez";
+       String productoEJ45 = "Camiseta";
+       String marcaEJ45 = "Guess";
+       int precioEJ45 = 45;
+       int stockEJ45 = 4;
+       boolean disponibleEJ45 = true;
+       
+       int [] camisetasEJ45 = {45,30,10,80,90};
+       double ivaEJ45 = precioEJ45*0.21;
+       double descuentoEJ45 = (precioEJ45*10)/100;
+       
+       System.out.println("Precio con iva " +ivaEJ45);
+       System.out.println("Precio con descuento " +descuentoEJ45);
+       System.out.println("Precio final " +(precioEJ45+(precioEJ45*ivaEJ45)));
+
         
         
 
