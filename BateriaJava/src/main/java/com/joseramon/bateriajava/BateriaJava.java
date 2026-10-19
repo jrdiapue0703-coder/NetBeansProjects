@@ -644,12 +644,72 @@ public class BateriaJava {
        
        System.out.println("Precio con iva " +ivaEJ45);
        System.out.println("Precio con descuento " +descuentoEJ45);
-       System.out.println("Precio final " +(precioEJ45+(precioEJ45*ivaEJ45)));
-
-        
-        
-
+       System.out.println("Precio final " +ivaEJ45*descuentoEJ45);
+       System.out.println("Media: " +(camisetasEJ45[0]+camisetasEJ45[1]+camisetasEJ45[2]+camisetasEJ45[3]+camisetasEJ45[4])/5);
        
+         //EJERCICIO46
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+        
+ 
+ 
+        //LLEVA COMILLAS EL NOMBRE JUAN
+        String nombre = "Juan";
+        //NO LLEVA COMILLAS EL NUMERO
+        int edad = 20;
+        //ES CON PUNTO Y NO CON ,
+        double precio = 25.50;
+        //NO LLEVA COMILLAS
+        boolean activo = true;
+        //LLEVA SOLO UNA COMILLA
+        char inicial = 'J';
+ 
+        System.out.println(nombre);
+        System.out.println(edad);
+        System.out.println(precio);
+        System.out.println(activo);
+        System.out.println(inicial);
+        
+        //EJERCICIO47
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+        
+       int[] numeros = {10, 20, 30, 40, 50};
+       
+ //EN TODOS FALTA LAS COMILLAS Y + 
+        System.out.println("Numero1 " +numeros[0]);
+        System.out.println("Numero3 " +numeros[2]);
+        System.out.println("Numero4 " +numeros[4]);
+        
+         //EJERCICIO48
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+    int a = 10;
+    int b = 5;
+ //EN TODOS FALTA LAS COMILLAS Y + 
+ 
+    System.out.println("Suma "+a + b);
+    System.out.println("Resta "+a * b);
+    System.out.println("Mayor que" +(a > b));
+    System.out.println("Igual " +(a == b));
+    
+     //EJERCICIO49
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+    
+    boolean mayorEdad = edad >= 18;
+    boolean menorDe30 = edad < 30;
+    boolean resultado = mayorEdad && menorDe30;
+    
+  //EN TODOS FALTA LAS COMILLAS Y + 
+    System.out.println("Mayor "+mayorEdad);
+    System.out.println("Menor "+menorDe30);
+    System.out.println("Resultado "+resultado);
         
         
     }
