@@ -678,9 +678,11 @@ public class BateriaJava {
         
        int[] numeros = {10, 20, 30, 40, 50};
        
- //EN TODOS FALTA LAS COMILLAS Y + 
+    //EN TODOS FALTA LAS COMILLAS Y + 
         System.out.println("Numero1 " +numeros[0]);
         System.out.println("Numero3 " +numeros[2]);
+        
+        //HAY QUE CAMBIAR LA VARIABLE
         System.out.println("Numero4 " +numeros[4]);
         
          //EJERCICIO48
@@ -706,11 +708,227 @@ public class BateriaJava {
     boolean menorDe30 = edad < 30;
     boolean resultado = mayorEdad && menorDe30;
     
-  //EN TODOS FALTA LAS COMILLAS Y + 
+    //EN TODOS FALTA LAS COMILLAS Y + 
     System.out.println("Mayor "+mayorEdad);
     System.out.println("Menor "+menorDe30);
     System.out.println("Resultado "+resultado);
+    
+     //EJERCICIO49
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");
+       
+    int edadEJ49 = 20;
+ 
+    
+    boolean mayorEdadEJ49 = edadEJ49 >= 18;
+    boolean menorDe30EJ49 = edadEJ49 < 30;
+    boolean resultadoEJ49 = mayorEdad && menorDe30;
+     
+//EN TODOS FALTA LAS COMILLAS Y + 
+
+    System.out.println("Mayor de edead" +mayorEdadEJ49);
+    System.out.println("Menor" +menorDe30EJ49);
+    System.out.println("Resultado"+resultadoEJ49);
+        
+    //EJERCICIO50
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");  
+       
+      String nombreEJ50 = "Jose Ramon";
+      String apellidosEJ50 = "Diaz Puerto";
+      int edadEJ50 = 19;
+      String cursoEJ50 = "1 Daw";
+      char grupo50 = 'A'; 
+      String centroEJ50 = "ILERN";
+      boolean repetidor50= false;
+      
+     int [] notas50 = {7,8,9,10,6};
+     System.out.println("Media: " +(notas50[0]+notas50[1]+notas50[2]+notas50[3]+notas50[4])/5);
+     
+     boolean mayordedad = true;
+     boolean aprobado = true;
+     boolean notassuperior8= true;
+     
+    System.out.println("Nombre " +nombreEJ50);
+    System.out.println("Apellidos " +apellidosEJ50);
+    System.out.println("Edad " +edadEJ50);
+    System.out.println("Curso " +cursoEJ50);
+    System.out.println("Grupo " +grupo50);
+    System.out.println("Centro " +centroEJ50);
+    System.out.println("Repetidor " +repetidor50);
+    System.out.println("Mayor de edad." +mayordedad);
+    System.out.println("Aprobado" +aprobado);
+    System.out.println("Nota superior a 8."+notassuperior8);
+    
+    //EJERCICIO51
+       System.out.println("================================");
+       System.out.println("          ejercicio             ");
+       System.out.println("================================");  
+       
+      String nombreEJ51 = "Bambas";
+      String marcaEJ51 = "CK";
+      String categoriaEJ51 = "Calzado";
+      int precioEJ51 = 90;
+      int stockEJ51 = 5;
+      double ivaEJ51 = precioEJ51*0.21;
+      double descuentoEJ51 = (precioEJ51*10)/100;
+      boolean disponibleEJ51 = true;
+      
+    System.out.println("Importe de descuento " +descuentoEJ51);
+    System.out.println("Precio final despues del descuento. " +(precioEJ51-descuentoEJ51));
+    System.out.println("Importe del IVA " +ivaEJ51);
+        System.out.println("Precio final con IVA " +((precioEJ51-descuentoEJ51)+ivaEJ51));
         
         
+        
+     //EJERCICIO52
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================"); 
+    
+    String NombreEJ52 = "GTA V";
+    String GeneroEJ52 = "Accion";
+    int precioEJ52 = 50;
+    int edadrecomendadaEJ52 = 18;
+    int valoracionEJ52 = 8;
+    boolean disponibleEJ52 = true;
+    
+    int [] valortacionesEJ52 = {7,8,9,5,6};
+    double mediaEJ52 = (valortacionesEJ52[0] +valortacionesEJ52[1] +valortacionesEJ52[2] +valortacionesEJ52[3] +valortacionesEJ52[4])/5;
+    
+        System.out.println("MEDIA: " +mediaEJ52);
+        
+    boolean valoracionmediaEJ52 = mediaEJ52 >7;
+    boolean precioinferiorEJ52 = precioEJ52 <50;
+        System.out.println("¿La valoración media es superior a 7? " +valoracionmediaEJ52);
+        System.out.println("¿El precio es inferior a 50 €? " +precioinferiorEJ52);
+        System.out.println("¿El videojuego está disponible? " +disponibleEJ52);
+        
+     //EJERCICIO53
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");     
+        
+    String tituloEJ53 = "Buscando a nemo";
+    String directorEJ53 = "Santi";
+    int anoEJ53 = 2003;
+    String duracionEJ53 = "2 Horas";
+    int precioEJ53 = 12;
+    int valoracionEJ53 = 7;
+    boolean disponibilidad = true;
+    
+    System.out.println("================================");
+    System.out.println("           PELICULA            ");
+    System.out.println("================================");
+    System.out.println("Título: " +tituloEJ53);
+    System.out.println("Director: " +directorEJ53);
+    System.out.println("Ano: " +anoEJ53);
+    System.out.println("Duracion: " +duracionEJ53);
+    System.out.println("Precio " +precioEJ53);
+    System.out.println("Valoracion" +valoracionEJ53);
+    System.out.println("Disponible" +disponibilidad);
+    
+    //EJERCICIO54
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");  
+    
+    int edad1EJ54 = 20;
+    int edad2EJ54 = 25;
+    int edad3EJ54 = 30;
+    
+    int sumaEJ54 = edad1EJ54+edad2EJ54+edad3EJ54;
+    int mediaEJ54 = ((edad1EJ54+edad2EJ54+edad3EJ54)/5);
+    int diferenciaEJ54 = edad1EJ54-edad3EJ54;
+    int sumaedad1y2EJ54 = edad1EJ54+edad2EJ54;
+    int restaedad2y1EJ54 = edad2EJ54-edad1EJ54;
+    int restaedad3y1EJ54= edad3EJ54-edad1EJ54;
+    
+    //EJERCICIO55
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");  
+    
+    int horasEJ55 = 5;
+    int minutosEJ55 = horasEJ55*60;
+    int segundosEJ55 = minutosEJ55 * 60;
+    
+    System.out.println("Minutos " +minutosEJ55);
+    System.out.println("Segundos " +segundosEJ55);
+    
+     //EJERCICIO56
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");  
+    
+    int minutosEJ56 = 150;
+    double horasEJ56 = (minutosEJ56/60);
+    double minutosrestantesEJ56 = horasEJ56%60;
+    System.out.println("Horas "+horasEJ56);
+    System.out.println("Minutos restantes " +minutosrestantesEJ56);
+    
+     //EJERCICIO57
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================"); 
+    
+    int kilometrosEJ57 = 10;
+    
+    int metrosEJ57 = 10*1000;
+    int cetimetrosEJ57 = metrosEJ57*1000;
+    
+     //EJERCICIO58
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================"); 
+    
+    int kilogramosEJ58 = 75;
+    
+    int gramosEJ58 = 75*1000;
+    int miligramosEJ58 = gramosEJ58*1000;
+    
+    
+    //EJERCICIO59
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================"); 
+    
+    int distanciaEJ59 = 150;
+    int tiempoEJ59 = 2;
+    
+    int velocidadEJ59 = distanciaEJ59/tiempoEJ59;
+    
+    System.out.println("Distancia " +distanciaEJ59);
+    System.out.println("tiempo " +tiempoEJ59);
+    System.out.println("Velocidad " +velocidadEJ59);
+    
+    //EJERCICIO60
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");
+    
+    
+     int kilometrosEJ60 = 500;
+     int litrosEJ60 = 40;
+     
+     int consumoEJ60 = (litrosEJ60/kilometrosEJ60)*100;
+   
+     
+    System.out.println("Consumo cada 100km " +consumoEJ60);
+    
+    //EJERCICIO61
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");
+    
+    int kilometrosEJ61 = 500;
+    double consumoEJ61 = 6.5;
+    double precioLitroEJ61 = 1.60;
+    double litrosconsumidosEJ61 = kilometrosEJ61/ consumoEJ61;
+        System.out.println("Litros consumidos. " +litrosconsumidosEJ61);
+    
+    
     }
 }
