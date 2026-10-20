@@ -1122,15 +1122,81 @@ public class BateriaJava {
     System.out.println("================================");
     System.out.println("          ejercicio             ");
     System.out.println("================================");
-        System.out.println(""
-                + "");
+    String usuarioEJ75 = "Cristiano Ronaldo";
+    int seguidoresEJ75 = 1900;
+    int seguidosEJ75 = 1300;
+    int publicacionesEJ75 = 70;
+    boolean verificada75 = true;
     
+        System.out.println("usuario "+usuarioEJ75);
+        System.out.println("seguidores "+seguidoresEJ75);
+        System.out.println("seguidos "+seguidosEJ75);
+        System.out.println("publicaciones "+publicacionesEJ75);
+        System.out.println("verificada "+verificada75);
+        
+    int diferenciaEJ75 = seguidoresEJ75-seguidosEJ75;
+    int totalEJ75 = seguidoresEJ75+seguidosEJ75;
+       
     
+    boolean masseguidoresEJ75 =seguidoresEJ75 >1000;
+    boolean seguidoresseguidosEJ75 = seguidoresEJ75 > seguidosEJ75;
     
+    //EJERCICIO76
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");
     
+    String nombreEJ76 = "Fifa";
+    int precioEJ76 = 60;
+    int horasjugadasEJ76 = 30;
+    int nivelEJ76 = 10;
+    int pntuacionEJ76 = 6 ;
+    boolean completadoEJ76 = false;
     
+        System.out.println("nombre "+nombreEJ76);
+        System.out.println("precio "+precioEJ76);
+        System.out.println("horasJugadas "+horasjugadasEJ76);
+        System.out.println("nivel "+nivelEJ76);
+        System.out.println("puntuacion "+pntuacionEJ76);
+        System.out.println("completado "+completadoEJ76);
+        
+    boolean precioinferiorEJ76 = precioEJ76 <50;
+    boolean masde10hEJ76 = horasjugadasEJ76 >10;
+    boolean puntuacion7EJ76 = pntuacionEJ76 >7;
+    boolean completadojuegoej76 = completadoEJ76;
     
+    //EJERCICIO77
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");
     
+    int[] puntuacionesEJ77 = { 8, 7, 9, 6, 10 };
+    
+    int mediaEJ77 = (puntuacionesEJ77[0]+puntuacionesEJ77[1]+puntuacionesEJ77[2]+puntuacionesEJ77[3]+puntuacionesEJ77[4])/5;
+    int primerapuntuacionEJ77 = puntuacionesEJ77[0];
+    int primerapuntuacion_EJ77 = puntuacionesEJ77[4];
+    System.out.println("Numero de puntuaciones : " +puntuacionesEJ77.length +" posiciones");
+
+    boolean puntuacionAltaEJ77 = mediaEJ77 >7; 
+    System.out.println("Puntuacion alta "+puntuacionAltaEJ77);
+    
+    //EJERCICIO78
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");
+    
+    String equipoEJ78 = "Mi equipo";
+    int partidosJugadosEJ78 = 10;
+    int partidosGanadosEJ78 = 6;
+    int partidosEmpatadosEJ78 = 2;
+    int partidosPerdidosEJ78 = 2;
+    int puntosEJ78 = 20;
+    
+    int porcentaje_ganadosEJ78 = (partidosGanadosEJ78 / partidosJugadosEJ78) * 100;
+    int porcentajE_perdidosEJ78 = (partidosPerdidosEJ78 / partidosJugadosEJ78) * 100;
+    int puntos_por_partidoEJ78 = puntosEJ78 / partidosJugadosEJ78;
+    
+      
         
         
         
