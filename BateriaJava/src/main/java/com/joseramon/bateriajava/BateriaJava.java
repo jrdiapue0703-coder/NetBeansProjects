@@ -929,6 +929,39 @@ public class BateriaJava {
     double litrosconsumidosEJ61 = kilometrosEJ61/ consumoEJ61;
         System.out.println("Litros consumidos. " +litrosconsumidosEJ61);
     
+    //EJERCICIO62
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");
+    
+    int salarioEJ62 = 1800;
+    int salario12EJ62 = salarioEJ62*12;
+    int salario14EJ62 = salarioEJ62*14;
+    
+    //EJERCICIO63
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");
+
+    double producto1EJ63 = 25.50;
+    double producto2EJ63 = 15.99;
+    double producto3EJ63 = 45.75;
+    double preciototalEJ63 =producto1EJ63+producto2EJ63+producto3EJ63;
+    double ivaEJ63 =  preciototalEJ63*0.21;
+    double preciofinalEJ63 = preciototalEJ63-ivaEJ63;
+    
+    //EJERCICIO64
+    System.out.println("================================");
+    System.out.println("          ejercicio             ");
+    System.out.println("================================");
+    
+    double[] preciosEJ64 = {12.50,25.99,8.75,49.99,15.00};
+    
+        System.out.println("Todo los precios " +preciosEJ64);
+    
+    
+    
+    
     
     }
 }
