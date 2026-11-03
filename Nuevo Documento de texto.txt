@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablero de ajedrez</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background: #202b36;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(24px, 5vw, 36px);
+    }
+
+    #tablero {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      width: min(90vw, 560px);
+      aspect-ratio: 1;
+      border: 6px solid #49372a;
+      box-shadow: 0 12px 35px #0006;
+    }
+
+    .casilla {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      min-width: 0;
+      aspect-ratio: 1;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      font-size: clamp(25px, 8vw, 56px);
+      line-height: 1;
+      user-select: none;
+    }
+
+    .clara {
+      background: #f0d9b5;
+    }
+
+    .oscura {
+      background: #b58863;
+    }
+
+    .blanca {
+      color: #fff;
+      text-shadow: 1px 2px 2px #333, -1px -1px 1px #333;
+    }
+
+    .negra {
+      color: #171717;
+      text-shadow: 0 1px 1px #fff6;
+    }
+
+    .seleccionada {
+      background: #b6cf50 !important;
+    }
+
+    .posible::after {
+      content: "";
+      position: absolute;
+      width: 24%;
+      height: 24%;
+      border-radius: 50%;
+      background: #263b2780;
+      pointer-events: none;
+    }
+
+    .posible.ocupada::after {
+      width: 85%;
+      height: 85%;
+      background: transparent;
+      border: 5px solid #263b2780;
+    }
+
+    .coordenada {
+      position: absolute;
+      font: bold 11px Arial, sans-serif;
+      pointer-events: none;
+    }
+
+    .fila {
+      top: 3px;
+      left: 4px;
+    }
+
+    .columna {
+      bottom: 3px;
+      right: 4px;
+    }
+
+    #estado {
+      text-align: center;
+      font-size: 16px;
+      color: #e0e6ec;
+    }
+
+    button#reiniciar {
+      padding: 12px 24px;
+      border: 0;
+      border-radius: 8px;
+      background: #d6a45d;
+      color: #202020;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button#reiniciar:hover {
+      background: #edbd78;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>♟ Ajedrez ♟</h1>
+
+  <div id="tablero" aria-label="Tablero de ajedrez"></div>
+
+  <div id="estado">Selecciona una pieza para moverla.</div>
+
+  <button id="reiniciar">Reiniciar partida</button>
+
+  <script>
+    const tablero = document.getElementById("tablero");
+    const estado = document.getElementById("estado");
+
+ 
+    ];
+
+    let piezas;
+    let seleccion = null;
+
+    const blancas = "♙♖♘♗♕♔";
+
+    function dibujar() {
+      tablero.innerHTML = "";
+
+      for (let fila = 0; fila < 8; fila++) {
+        for (let col = 0; col < 8; col++) {
+          const casilla = document.createElement("button");
+          const pieza = piezas[fila][col];
+
+          casilla.type = "button";
+          casilla.className =
+            "casilla " +
+            ((fila + col) % 2 === 0 ? "clara" : "oscura");
+
+          casilla.setAttribute(
+            "aria-label",
+            String.fromCharCode(97 + col) + (8 - fila) +
+            (pieza ? " " + pieza : " vacía")
+          );
+
+          if (pieza) {
+            casilla.textContent = pieza;
+            casilla.classList.add(
+              blancas.includes(pieza) ? "blanca" : "negra"
+            );
+          }
+
+          if (seleccion &&
+              seleccion.fila === fila &&
+              seleccion.col === col) {
+            casilla.classList.add("seleccionada");
+          }
+
+          if (seleccion &&
+              (seleccion.fila !== fila ||
+               seleccion.col !== col)) {
+            casilla.classList.add("posible");
+            if (pieza) casilla.classList.add("ocupada");
+          }
+
+          if (col === 0) {
+            const numero = document.createElement("span");
+            numero.className = "coordenada fila";
+            numero.textContent = 8 - fila;
+            casilla.appendChild(numero);
+          }
+
+          if (fila === 7) {
+            const letra = document.createElement("span");
+            letra.className = "coordenada columna";
+            letra.textContent = String.fromCharCode(97 + col);
+            casilla.appendChild(letra);
+          }
+
+          casilla.addEventListener("click", () =>
+            pulsar(fila, col)
+          );
+
+          tablero.appendChild(casilla);
+        }
+      }
+    }
+
+    function pulsar(fila, col) {
+      const pieza = piezas[fila][col];
+
+      if (!seleccion) {
+        if (!pieza) {
+          estado.textContent = "Selecciona una casilla con una pieza.";
+          return;
+        }
+
+        seleccion = { fila, col };
+        estado.textContent = "Ahora selecciona dónde moverla.";
+      } else if (
+        seleccion.fila === fila &&
+        seleccion.col === col
+      ) {
+        seleccion = null;
+        estado.textContent = "Selección cancelada.";
+      } else {
+        piezas[fila][col] =
+          piezas[seleccion.fila][seleccion.col];
+        piezas[seleccion.fila][seleccion.col] = "";
+
+        seleccion = null;
+        estado.textContent =
+          "Pieza movida. Selecciona otra para continuar.";
+      }
+
+      dibujar();
+    }
+
+    document.getElementById("reiniciar").addEventListener(
+      "click",
+      () => {
+        piezas = inicio.map(fila => [...fila]);
+        seleccion = null;
+        estado.textContent = "Tablero reiniciado.";
+        dibujar();
+      }
+    );
+
+    piezas = inicio.map(fila => [...fila]);
+    dibujar();
+  </script>
+
+</body>
+</html>
