@@ -17,20 +17,21 @@ public class BL1_EJ6 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    Scanner teclado = new Scanner(System.in);
-    System.out.println("Altura del usuario");
-    
-    double altura= teclado.nextDouble();
-    if (altura <0) {
-    System.out.println("Error,No admiten alturas negativas");
-    }else if (altura <140) {
-    System.out.println("Denegar acceso");
-    }else {
-    System.out.println("Aprobar acceso");
-    }
-    
-    
-    teclado.close();
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Introduce tu altura para saber si puedes pasar ");
+        int altura = teclado.nextInt();
+        
+        if (altura <0) {
+        System.out.println("Error,la edad no puede ser negativo");        
+        }else {
+        if (altura >= 140) {
+        System.out.println("Acceso permitido");
+        }else {
+        System.out.println("Acceso denegado");
+            }
+        }
+        
+       teclado.close();
     }
     
 }
