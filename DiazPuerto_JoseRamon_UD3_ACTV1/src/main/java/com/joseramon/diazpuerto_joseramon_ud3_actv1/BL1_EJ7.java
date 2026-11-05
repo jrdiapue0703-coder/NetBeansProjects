@@ -20,6 +20,9 @@ public class BL1_EJ7 {
         Scanner teclado = new Scanner(System.in);
         
 
+        
+        
+
     }
     
 }
