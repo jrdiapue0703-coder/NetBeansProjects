@@ -10,19 +10,30 @@ import java.util.Scanner;
  *
  * @author jrdiapue0703
  */
-public class BL1_EJ7 {
+public class ejercicioexamen {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner teclado = new Scanner(System.in);
+    Scanner teclado = new Scanner(System.in);
         
-
+        String nombre = "zapatos";
+        int precio = 30;
+        int stock = 4;
+        System.out.println("Producto "+nombre);
+        System.out.println("Precio por unidad "+precio);
+        System.out.println("Cantidad "+stock);
+        
+        int preciototal = precio * stock;
+        System.out.println("Precio total. "+preciototal);
+    
+    
+    
+    
+    }        
         
         
-
-    }
     
 }
