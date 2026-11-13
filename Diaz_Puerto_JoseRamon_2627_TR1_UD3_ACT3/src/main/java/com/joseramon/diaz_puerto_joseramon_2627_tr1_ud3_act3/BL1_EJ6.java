@@ -40,8 +40,9 @@ public class BL1_EJ6 {
         else {
             System.out.println("El costo de aparcamiento es de 15€");
             
+            
         }  
-
+        teclado.close(); 
     }
     
 }
